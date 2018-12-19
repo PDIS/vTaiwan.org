@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="expires" content="-1" />
+<meta name="Author" content="JohnPuPu johnpupu@gmail.com, Firch Tsai firchtsai@gmail.com" />
+<meta name="copyright" content="版權所有© 財團法人中央廣播電臺" />
+<script>var jQuery_root = "//www.rti.org.tw/jQuery/";</script><script type="text/javascript" src="//www.rti.org.tw/jQuery/jquery.min.js?v=201811211506"></script>
+<link href="//www.rti.org.tw/jQuery/bootstrap/css/bootstrap.min.css?v=201811211506" rel="stylesheet" type="text/css"/>
+<link href="//www.rti.org.tw/jQuery/bootstrap_font_awesome/css/font-awesome.min.css?v=201811211506" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="//www.rti.org.tw/jQuery/bootstrap/bootstrap.min.js?v=201811211506"></script>
+<title>Rti 中央廣播電臺</title>
+<style>
+body{
+    background-color: #666;
+}
+
+#error{
+		margin-top: 100px;
+}
+
+#exit{
+		float: left;
+		margin: 5px 15px 0 0;
+}
+.error_message{
+    min-height: 57px;
+    padding-left: 65px;
+    padding-top: 3px;
+}
+</style>
+</head>
+<body>
+
+<div id="contents" class="container-fluid">
+		<div class="row-fluid">
+
+				<div id="error" class="span8 offset2">
+						<!--Main-->
+						<div class="alert alert-error">
+								<a href="javascript:history.go(-1)"><img id="exit" src="/images/exit.png"></a>
+								<div class="error_message">
+發生了一個錯誤, 請聯繫系統管理員</div>
+						</div>
+						<!--Main-->
+				</div><!--/span-->
+
+		</div><!--/row-->
+
+</div><!--/.fluid-container-->
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+/* =PRINT STYLE ==================== */
+@import url("LAYOUT.CSS");
+body{background:none;}
+.basenavBg,.nav,.kv,body .brick,.conR,.func2,
+.btnbar3,.footerBg{display: none;}
+.conL{display:block;margin-right:0;width:100%;}

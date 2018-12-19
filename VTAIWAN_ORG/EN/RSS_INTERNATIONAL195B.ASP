@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:blogChannel="http://backend.userland.com/blogChannelModule"><channel><title>臺灣個人資料保護與管理制度</title><link>https://www.vtaiwan.org.tw</link><description>Important International Legal System Information</description><copyright>Copyright © 經濟部商業司 All Rights Reserved. 經濟部商業司廣告 </copyright><generator /></channel></rss>
